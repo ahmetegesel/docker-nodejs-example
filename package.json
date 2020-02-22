@@ -1,0 +1,26 @@
+{
+  "name": "express-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetegesel/express-example.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Ahmet Egesel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmetegesel/express-example/issues"
+  },
+  "homepage": "https://github.com/ahmetegesel/express-example#readme"
+}
