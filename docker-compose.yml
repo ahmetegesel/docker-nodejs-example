@@ -1,0 +1,24 @@
+version: '3'
+services:
+  docker-nodejs-example:
+    build: .
+    image: docker-nodejs-example:latest
+    command: npm run start
+    volumes:
+      - .:/usr/src/app/
+      - /usr/src/app/node_modules
+    ports:
+      - "3000:3000"
+    environment:
+      text: World
+  docker-nodejs-example-test:
+    build: .
+    image: docker-nodejs-example-test:latest
+    command: npm run start
+    volumes:
+      - .:/usr/src/app/
+      - /usr/src/app/node_modules
+    ports:
+      - "3001:3000"
+    environment:
+      text: Moon
